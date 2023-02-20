@@ -40,6 +40,10 @@ footer a {
    float: right;
 }
 
+#count {
+   color: rgb(246, 239, 158);
+}
+
 .players {
    flex: 1;
    width: 100%;
@@ -139,3 +143,14 @@ footer a {
    transform: translateX(-50%) translateY(-50%);
 }
 
+@media (max-height: 600px) {
+   header {
+     display: none;
+   }
+   footer {
+     display: none;
+   }
+   main {
+     flex: 1 100vh;
+   }
+ }
